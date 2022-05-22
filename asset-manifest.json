@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/cryptoprices/static/css/main.073c9b0a.css",
-    "main.js": "/cryptoprices/static/js/main.99cf0817.js",
-    "static/js/787.d6cb1aba.chunk.js": "/cryptoprices/static/js/787.d6cb1aba.chunk.js",
-    "static/media/logo.svg": "/cryptoprices/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/cryptoprices/static/css/main.95cd542f.css",
+    "main.js": "/cryptoprices/static/js/main.572e4fa8.js",
     "index.html": "/cryptoprices/index.html",
-    "main.073c9b0a.css.map": "/cryptoprices/static/css/main.073c9b0a.css.map",
-    "main.99cf0817.js.map": "/cryptoprices/static/js/main.99cf0817.js.map",
-    "787.d6cb1aba.chunk.js.map": "/cryptoprices/static/js/787.d6cb1aba.chunk.js.map"
+    "main.95cd542f.css.map": "/cryptoprices/static/css/main.95cd542f.css.map",
+    "main.572e4fa8.js.map": "/cryptoprices/static/js/main.572e4fa8.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.99cf0817.js"
+    "static/css/main.95cd542f.css",
+    "static/js/main.572e4fa8.js"
   ]
 }
