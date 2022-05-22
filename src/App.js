@@ -10,9 +10,6 @@ function App() {
   const [search, setSearch] = useState('');
 
   document.title = "CryptoApp"
-  // useEffect(() => {
-    
-  // }, []);  
 
   useEffect(() => {
     let interval = setInterval(() => {
@@ -33,6 +30,10 @@ function App() {
     };
 
   })
+
+  useEffect(() => {
+
+  })
   
   
   const handleChange = e => {
@@ -46,7 +47,7 @@ function App() {
   return (
     <div className="coin-app">
       <div className="coin-search">
-        <h1 className='coin-text'>Search any currency</h1>
+        <h1 className='coin-text'>Search Any Currency</h1>
         <form>
           <input 
             className = "coin-input"
@@ -56,6 +57,27 @@ function App() {
           />
         </form>
       </div>
+
+      <div class="container" id = "coincontainer">
+        <div class="row">
+          <div class="col-sm-3 col-2"id ="coin">
+            Coin
+          </div>
+          <div class="col-sm-2 col-2" id ="price">
+            Price
+          </div>
+          <div class="col-sm-2 col-2" id ="volume">
+            Volume
+          </div>
+          <div class="col-sm-2 col-2" id ="pricechange">
+            Price Change% (24h)
+          </div>
+          <div class="col-sm col-2" id ="market">
+            Market Cap
+          </div>
+        </div>
+      </div>
+
       {filteredCoins.map(coin => {
         return (
           <Coin

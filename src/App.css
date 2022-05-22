@@ -91,3 +91,28 @@ input[type = text] {
 .coin-percent-green.col-2.coindata{
   color: green;
 }
+
+.col-2{
+  color: aliceblue;
+  font-size: 120%;
+}
+
+#volume{
+  padding-left: 5.5%;
+}
+
+#pricechange{
+  padding-left: 3.5%;
+}
+
+#market{
+  padding-left: 1%;
+}
+
+#coin{
+  padding-left: 2%;
+}
+
+#price{
+  padding-left: 8.5%;
+}

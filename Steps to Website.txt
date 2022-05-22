@@ -1,0 +1,6 @@
+After doing any changes in the code run following lines one by one
+
+>>>> npm run deploy
+>>>> git add .
+>>>> git commit -m "commit message"
+>>>> git push origin master
