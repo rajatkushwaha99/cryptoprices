@@ -1,2 +1,2 @@
 # cryptoprices Website: 
-###https://rajatkushwaha99.github.io/cryptoprices/
+https://rajatkushwaha99.github.io/cryptoprices/
